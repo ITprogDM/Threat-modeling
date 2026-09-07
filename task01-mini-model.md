@@ -6,7 +6,7 @@
 
 ### 🔑 Аутентификация и 2FA
 
-| № | Компоненты |
+| № | Границы |
 |---|------------|
 | 1 | Пользователь → Nginx (API Gateway) |
 | 2 | Nginx (API Gateway) → AuthService |
@@ -17,7 +17,7 @@
 
 ### 💳 Оплата / Перевод
 
-| № | Компоненты |
+| № | Границы |
 |---|------------|
 | 1 | Пользователь / Мерчант / Внешняя платёжная система → Nginx (API Gateway) |
 | 2 | Nginx (API Gateway) → Processing Service / Payment-GW / Notification / Antifraud Service / Transaction / Account Service |
@@ -26,7 +26,7 @@
 
 ---
 
-## ⚠️ STRIDE-анализ
+## ⚠️ STRIDE
 
 ---
 
